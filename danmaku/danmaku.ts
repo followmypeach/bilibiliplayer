@@ -78,7 +78,7 @@ class Danmaku {
                 visible: true,
                 isRecycling: false,
                 verticalDanmaku: false,
-                preTime: 1,
+                preTime: 0.01,
 
                 danmakuFilter: (danmaku: ITextDataInterface) => {
                     // console.log('danmaku advance filter');
